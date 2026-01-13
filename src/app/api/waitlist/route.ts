@@ -52,7 +52,7 @@ export async function POST(request: Request) {
       "https://script.google.com/macros/s/AKfycbyowipJWtqrOyXvAick-xcN9usbvEepIY1J_L7duU7jbkWPMVpKR-nByPvpM5Ni-6nLrQ/exec",
       {
         method: "POST",
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({ email, app: "Human in the Loop" }),
       }
     );
 
