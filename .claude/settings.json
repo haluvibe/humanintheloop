@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": []
+  },
+  "plugins": {
+    "frontend-design@claude-code-plugins": {
+      "enabled": true
+    }
+  }
+}
